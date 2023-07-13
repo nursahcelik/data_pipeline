@@ -16,7 +16,7 @@ The project consists of four main components:
 
 ## Repository Structure
 
-- **data_collection**: This directory contains the code for web scraping and API data collection. The scripts `web_scraping.jpynb`, `weather.jpynb`, and `flights_api.py` demonstrate the process of extracting data from different sources.
+- **data_collection**: This directory contains the code for web scraping and API data collection. The scripts `web_scraping.jpynb`, `weather.jpynb`, and `flights.jpynb` demonstrate the process of extracting data from different sources.
 
 - **data_storage**: Here, you will find the code for establishing the MySQL database connection and creating the necessary tables. The script `database_setup.py` handles the database creation and table schema.
 
@@ -34,4 +34,11 @@ To run the project locally or deploy it on AWS, follow these steps:
 
 3. Modify the code files as needed, such as updating API keys or adjusting data collection parameters.
 
-4. To run the code locally,
+4. To run the code locally, execute the relevant scripts in the appropriate directories.
+
+For deploying to AWS, refer to the documentation provided within the pipeline_aws directory for detailed instructions on setting up the AWS resources, Lambda functions, and scheduling triggers using AWS CloudWatch.
+
+## Conclusion
+This project showcases the power of data pipeline automation using MySQL, Python, and AWS. By following the provided code and resources, you can gain insights into web scraping, API integration, MySQL database management, and AWS deployment. Feel free to explore the code and adapt it to your own projects or use cases.
+
+If you have any questions or suggestions, please feel free to reach out. Happy coding!
