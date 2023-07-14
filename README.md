@@ -20,9 +20,17 @@ The project consists of four main components:
 
 - **data_storage**: Here, you will find the code for establishing the MySQL database connection and creating the necessary tables. The script `database_setup.py` handles the database creation and table schema.
 
-- **pipeline_aws**: This directory contains the code and configuration files related to deploying the data pipeline to AWS. The script `lambda_function.py` represents the Lambda function that executes the data collection and storage scripts in the cloud. The `template.yaml` file defines the AWS CloudFormation stack for setting up the required AWS resources.
+- **pipeline_aws**: This directory contains the code and configuration files related to deploying the data pipeline to AWS. The script `lambda_function.py` represents the Lambda function that executes the data collection and storage scripts in the cloud.
 
 - **README.md**: The README file providing an overview of the project and instructions for running the code.
+
+## Prerequisites
+
+To run this project, you need an API key for the Weather API - 5-day forecast as well as AeroDataBox. Free options with monthly limited requests are available.
+
+You also need an AWS account to run the project in the cloud.
+
+WARNING: Free tier options are available for AWS, but costs may occur when choosing the wrong payment plan or exceeding limits. I am not responsible for any costs.
 
 ## Getting Started
 
