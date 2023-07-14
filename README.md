@@ -46,17 +46,17 @@ To run the project locally or deploy it on AWS, follow these steps:
   
 5. Create a new layers in AWS Lambda with the following ARNs:
 
-pandas --> arn:aws:lambda:eu-north-1:336392948345:layer:AWSSDKPandas-Python310:3
+  pandas --> arn:aws:lambda:eu-north-1:336392948345:layer:AWSSDKPandas-Python310:3
 
-requests --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p310-requests:3
+  requests --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p310-requests:3
 
-BeautifulSoup --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p310-beautifulsoup4:1
+  BeautifulSoup --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p310-beautifulsoup4:1
 
-SQLAlchemy --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p39-SQLAlchemy:14
+  SQLAlchemy --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p39-SQLAlchemy:14
 
-**You can find the all ARNs here:**
+  **You can find the all ARNs here:**
 
-https://api.klayers.cloud/api/v2/p3.9/layers/latest/eu-north-1/html
+  https://api.klayers.cloud/api/v2/p3.9/layers/latest/eu-north-1/html
 
 6. To run the code locally, execute the relevant scripts in the appropriate directories.
 
