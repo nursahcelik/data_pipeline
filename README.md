@@ -18,7 +18,7 @@ The project consists of four main components:
 
 - **data_collection**: This directory contains the code for web scraping and API data collection. The scripts `web_scraping.jpynb`, `weather.jpynb`, and `flights.jpynb` demonstrate the process of extracting data from different sources.
 
-- **data_storage**: Here, you will find the code for establishing the MySQL database connection and creating the necessary tables. The script `database_setup.py` handles the database creation and table schema.
+- **data_storage**: Here, you will find the code for establishing the MySQL database connection and creating the necessary tables. The script `database_setup.sql` handles the database creation and table schema.
 
 - **pipeline_aws**: This directory contains the code and configuration files related to deploying the data pipeline to AWS. The script `lambda_function.py` represents the Lambda function that executes the data collection and storage scripts in the cloud.
 
