@@ -50,3 +50,6 @@ For deploying to AWS, refer to the documentation provided within the pipeline_aw
 This project showcases the power of data pipeline automation using MySQL, Python, and AWS. By following the provided code and resources, you can gain insights into web scraping, API integration, MySQL database management, and AWS deployment. Feel free to explore the code and adapt it to your own projects or use cases.
 
 If you have any questions or suggestions, please feel free to reach out. Happy coding!
+
+Here you can find my Medium article about this project:
+https://medium.com/@nursahkurt.nk/unleashing-the-power-of-data-pipeline-automation-with-mysql-python-and-aws-441e9c60007c
