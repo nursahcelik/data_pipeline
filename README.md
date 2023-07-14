@@ -42,9 +42,24 @@ To run the project locally or deploy it on AWS, follow these steps:
 
 3. Modify the code files as needed, such as updating API keys or adjusting data collection parameters.
 
-4. To run the code locally, execute the relevant scripts in the appropriate directories.
+4. Import the data to the database we created.
+  
+5. Create a new layers in AWS Lambda with the following ARNs:
 
-For deploying to AWS, refer to the documentation provided within the pipeline_aws directory for detailed instructions on setting up the AWS resources, Lambda functions, and scheduling triggers using AWS CloudWatch.
+pandas --> arn:aws:lambda:eu-north-1:336392948345:layer:AWSSDKPandas-Python310:3
+requests --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p310-requests:3
+BeautifulSoup --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p310-beautifulsoup4:1
+SQLAlchemy --> arn:aws:lambda:eu-north-1:770693421928:layer:Klayers-p39-SQLAlchemy:14
+
+**You can find the all ARNs here:**
+
+https://api.klayers.cloud/api/v2/p3.9/layers/latest/eu-north-1/html
+
+6. To run the code locally, execute the relevant scripts in the appropriate directories.
+
+Create an appropriate CloudWatch event schedule. There is a nice short tutorial here:
+
+https://www.youtube.com/watch?v=lSqd6DVWZ9o&t=1s
 
 ## Conclusion
 This project showcases the power of data pipeline automation using MySQL, Python, and AWS. By following the provided code and resources, you can gain insights into web scraping, API integration, MySQL database management, and AWS deployment. Feel free to explore the code and adapt it to your own projects or use cases.
@@ -52,4 +67,5 @@ This project showcases the power of data pipeline automation using MySQL, Python
 If you have any questions or suggestions, please feel free to reach out. Happy coding!
 
 Here you can find my Medium article about this project:
+
 https://medium.com/@nursahkurt.nk/unleashing-the-power-of-data-pipeline-automation-with-mysql-python-and-aws-441e9c60007c
