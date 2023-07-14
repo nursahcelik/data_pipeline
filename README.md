@@ -30,7 +30,7 @@ To run this project, you need an API key for the Weather API - 5-day forecast as
 
 You also need an AWS account to run the project in the cloud.
 
-WARNING: Free tier options are available for AWS, but costs may occur when choosing the wrong payment plan or exceeding limits. I am not responsible for any costs.
+**WARNING:** Free tier options are available for AWS, but costs may occur when choosing the wrong payment plan or exceeding limits. I am not responsible for any costs.
 
 ## Getting Started
 
